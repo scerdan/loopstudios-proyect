@@ -13,7 +13,7 @@ body {
         position: relative;
         top: 0;
         width: 100vw;
-        height: 55vh;
+        height: 650px;
         background-color: red;
         background-image: url(../images/desktop/image-hero.jpg);
         background-repeat: no-repeat;
@@ -45,4 +45,26 @@ body {
             }
         }
     }
+
+    div#cuadro {
+        position: absolute;
+        top: 20.75vh;
+        left: 11.3vw;
+        border: 2px solid white;
+        padding: 2rem;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        font-size: 4.4rem;
+        font-weight: 300;
+        padding: 2.4rem 6.9rem 1.5rem 2.5rem;
+    }
+
+
+
+
+
+
+
+
 }
