@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body nav {
+  position: relative;
+  top: 0;
+  width: 100vw;
+  height: 55vh;
+  background-color: red;
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body nav div.container {
+  position: absolute;
+  margin: 6vh 10vw 0 10vw;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav div.container svg {
+  padding: 0 0 0 1rem;
+}
+body nav div.container div.menu {
+  display: flex;
+}
+body nav div.container div.menu a {
+  padding: 0 1.9rem 0 0;
+  font-family: "Alata", sans-serif;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
