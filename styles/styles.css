@@ -9,7 +9,6 @@ body nav {
   top: 0;
   width: 100vw;
   height: 650px;
-  background-color: red;
   background-image: url(../images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,6 +87,34 @@ body main div#contentImg p {
   color: #8c8c8c;
   font-size: 15px;
   line-height: 1.5rem;
+}
+body main div#trContent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 8rem;
+  height: 5vh;
+  justify-content: baseline;
+  width: 100vw;
+  margin: 3.5rem 0 0 0;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  align-items: center;
+}
+body main div#trContent h2 {
+  padding: 0 0 0 9.2rem;
+  font-size: 3rem;
+  font-weight: 300;
+  width: 50%;
+}
+body main div#trContent a {
+  margin: 0 0 0.5rem 14rem;
+  padding: 0.5rem 2.5rem;
+  letter-spacing: 0.25rem;
+  border: 2px solid black;
+  font-family: "Alata", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
