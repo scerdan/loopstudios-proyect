@@ -9,7 +9,8 @@
 }
 
 body {
-
+    max-width: 1440px;
+    max-height: 2886px;
     nav {
         position: relative;
         top: 0;
@@ -140,30 +141,37 @@ body {
         section#containerBox {
             position: relative;
             top: 0%;
-            background-color: wheat;
             width: 80vw;
             height: 80vh;
-            margin: 11rem 9rem 0 9rem;
+            margin: 10rem 9.25rem 0 9.25rem;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-around;
             font-family: 'Josefin Sans', sans-serif;
             text-transform: uppercase;
 
             div.boxImg {
+                padding: 2.6rem 0;
                 width: 23%;
                 height: 45%;
-                background-color: rgb(88, 88, 88);
-                border: 1px solid red;
 
                 p {
+                    margin: 22rem 1rem 0 2.5rem;
+                    width: 11rem;
                     color: white;
                     position: absolute;
-                }
+                    font-size: 2rem;
+               }
             }
         }
 
     }
 
+    footer {
+        position: absolute;
+        bottom: 20vh;
+        width: 100vw;
+        height: 20vh;
 
+    }
 }
